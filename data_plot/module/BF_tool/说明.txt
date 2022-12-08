@@ -1,0 +1,30 @@
+2015-8-31 陈昕枫 版本1.0
+适用于 “GCamp信号处理 2015-8-31”
+适用于 “条件抑制模型数据处理 2015-8”
+
+2015-9-11 陈昕枫 版本1.1
+新增 BF_FndArrinArr.m
+新增 BF_textfilter.m
+新增 BF_ReadLSTdatamat.m
+增强 BF_plotRaster.m 向下兼容1.0
+
+2015-9-16 陈昕枫 版本1.2
+修正 1.1版本BF_plotRaster.m 向下兼容1.0
+新增 BF_ArrXmodelArrY.m 向下兼容1.0
+修改 BF_AlignSg2Tg.m 向下兼容1.0
+修改 BF_ToneSPbyPump.m 向下兼容1.0
+优化 BF_textfilter.m 运行时间，兼容1.1
+新增 BF_StampGC2LST.m
+
+2015-9-20
+优化 BF_ReadLSTdatamat.m 只提取第一列，或[]。
+
+2015-11-9 陈昕枫 版本1.3
+新增 BF_YmeaninX.m X向量相同的情况下对应Y向量重新排布。
+优化 BF_plotRaster.m，当前trial与y轴一致。
+
+2016-1-8 陈昕枫 版本1.3.1
+优化 BF_blinkline2dot,增加每次blink的during输出。向下兼容。
+
+2016-4-19 陈昕枫 版本1.4
+新增 BF_plotRasterFill.m 制作光栅，适合睡眠Score。类！
