@@ -1,0 +1,1 @@
+function vim(varargin);vimopen(varargin{:});end
